@@ -206,6 +206,17 @@ tempCodeRunnerFile.py
 # Ruff stuff:
 .ruff_cache/
 
+# TaskFlow demo local artifacts
+node_modules/
+frontend/dist/
+frontend/*.tsbuildinfo
+frontend/vite.config.js
+frontend/vite.config.d.ts
+frontend/tailwind.config.js
+frontend/tailwind.config.d.ts
+backend/taskflow.db
+backend/taskflow.db-journal
+
 # PyPI configuration file
 .pypirc
 

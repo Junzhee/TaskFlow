@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color: #1f2933;
+  background: #f6f4ef;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: 2px solid #3f6f55;
+  outline-offset: 2px;
+}
+
+.taskflow-scrollbar {
+  scrollbar-color: rgba(55, 65, 81, 0.35) transparent;
+  scrollbar-width: thin;
+}
+
+.taskflow-scrollbar::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.taskflow-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(55, 65, 81, 0.28);
+  border-radius: 999px;
+}
